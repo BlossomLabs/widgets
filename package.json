@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/widgets",
   "description": "Uniswap Interface",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "homepage": "https://github.com/Uniswap/widgets#readme",
   "repository": "https://github.com/Uniswap/widgets",
   "files": [
@@ -62,7 +62,7 @@
     "@popperjs/core": "^2.4.4",
     "@reduxjs/toolkit": "^1.6.1",
     "@uniswap/redux-multicall": "^1.1.1",
-    "@uniswap/router-sdk": "^1.0.3",
+    "@uniswap/router-sdk": "https://github.com/PJColombo/router-sdk/releases/download/v1.0.6/uniswap-router-sdk-1.0.6.tgz",
     "@uniswap/sdk-core": "^3.0.1",
     "@uniswap/smart-order-router": "^2.5.26",
     "@uniswap/token-lists": "^1.0.0-beta.27",
