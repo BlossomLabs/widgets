@@ -3620,7 +3620,7 @@
   resolved "https://registry.yarnpkg.com/@uniswap/redux-multicall/-/redux-multicall-1.1.1.tgz#095285a9f9951d92ca0f8785bc4d2270676c309c"
   integrity sha512-sXX2pAbxJj1OrErSc7zMEFo7j1EXqTBbllYuUDEWCZ/A12sK/4RXgXW2+zSoXOHCN6djyVUc3FmEt0v3x2jLSw==
 
-"@uniswap/router-sdk@^1.0.3", "@uniswap/router-sdk@^1.0.5":
+"@uniswap/router-sdk@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@uniswap/router-sdk/-/router-sdk-1.0.5.tgz#59b429327b0d202744db6de958e6b61d5adeec12"
   integrity sha512-PA/0Ye9u3U5cm/LHrJuOgVSff6W4oFY3h+MUEzdp80SYIQdZZJ+BV06RL0h5KOSH+tuIX72n/qNusuRcf2Tc8Q==
@@ -3628,6 +3628,16 @@
     "@ethersproject/abi" "^5.5.0"
     "@uniswap/sdk-core" "^3.0.1"
     "@uniswap/swap-router-contracts" "1.1.0"
+    "@uniswap/v2-sdk" "^3.0.1"
+    "@uniswap/v3-sdk" "^3.7.1"
+
+"@uniswap/router-sdk@https://github.com/PJColombo/router-sdk/releases/download/v1.0.6/uniswap-router-sdk-1.0.6.tgz":
+  version "1.0.6"
+  resolved "https://github.com/PJColombo/router-sdk/releases/download/v1.0.6/uniswap-router-sdk-1.0.6.tgz#1de2388e7d2b9ab74d21be3a99fd9a9410cfdf94"
+  dependencies:
+    "@ethersproject/abi" "^5.5.0"
+    "@uniswap/sdk-core" "^3.0.1"
+    "@uniswap/swap-router-contracts" "https://github.com/PJColombo/swap-router-contracts/releases/download/v1.2.2/uniswap-swap-router-contracts-1.2.2.tgz"
     "@uniswap/v2-sdk" "^3.0.1"
     "@uniswap/v3-sdk" "^3.7.1"
 
@@ -3697,6 +3707,16 @@
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
+"@uniswap/swap-router-contracts@https://github.com/PJColombo/swap-router-contracts/releases/download/v1.2.2/uniswap-swap-router-contracts-1.2.2.tgz":
+  version "1.2.2"
+  resolved "https://github.com/PJColombo/swap-router-contracts/releases/download/v1.2.2/uniswap-swap-router-contracts-1.2.2.tgz#a2fb784b46dd9ed592f71a44b8acc137a984a735"
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/v2-core" "1.0.1"
+    "@uniswap/v3-core" "1.0.0"
+    "@uniswap/v3-periphery" "https://github.com/PJColombo/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-1.4.2.tgz"
+    dotenv "^14.2.0"
+
 "@uniswap/token-lists@^1.0.0-beta.25", "@uniswap/token-lists@^1.0.0-beta.27":
   version "1.0.0-beta.28"
   resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.28.tgz#76bb6ec25e76ae6bece9efc11b9b68079b2b9402"
@@ -3748,9 +3768,9 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v3-periphery@https://github.com/BlossomLabs/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-1.4.2.tgz":
+"@uniswap/v3-periphery@https://github.com/PJColombo/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-1.4.2.tgz":
   version "1.4.2"
-  resolved "https://github.com/BlossomLabs/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-1.4.2.tgz#3466f1c3480492f2228442ea810bc1d93fdf1b2c"
+  resolved "https://github.com/PJColombo/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-1.4.2.tgz#3466f1c3480492f2228442ea810bc1d93fdf1b2c"
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@uniswap/lib" "^4.0.1-alpha"
@@ -3758,7 +3778,7 @@
     "@uniswap/v3-core" "1.0.0"
     base64-sol "1.0.1"
 
-"@uniswap/v3-sdk@^3.7.0", "@uniswap/v3-sdk@^3.7.1", "@uniswap/v3-sdk@^3.8.2":
+"@uniswap/v3-sdk@^3.7.0", "@uniswap/v3-sdk@^3.7.1":
   version "3.8.2"
   resolved "https://registry.yarnpkg.com/@uniswap/v3-sdk/-/v3-sdk-3.8.2.tgz#6e10eebe0da851a4f6a5036a1e70a896a5c239d4"
   integrity sha512-JVrs1ZuWKP8JmYi5hxFliOnCFAEREwMpE7qB6rKPCo155/pIRyQ90lJfQZCJO7pP/webx5t5JFxCOytmDIp29Q==
@@ -3767,6 +3787,18 @@
     "@ethersproject/solidity" "^5.0.9"
     "@uniswap/sdk-core" "^3.0.1"
     "@uniswap/v3-periphery" "^1.1.1"
+    "@uniswap/v3-staker" "1.0.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
+"@uniswap/v3-sdk@https://github.com/PJColombo/v3-sdk/releases/download/v3.8.4/uniswap-v3-sdk-3.8.4.tgz":
+  version "3.8.4"
+  resolved "https://github.com/PJColombo/v3-sdk/releases/download/v3.8.4/uniswap-v3-sdk-3.8.4.tgz#26d8ded12d4794ab9b14e4b7b83f1c5a05314857"
+  dependencies:
+    "@ethersproject/abi" "^5.0.12"
+    "@ethersproject/solidity" "^5.0.9"
+    "@uniswap/sdk-core" "^3.0.1"
+    "@uniswap/v3-periphery" "https://github.com/PJColombo/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-1.4.2.tgz"
     "@uniswap/v3-staker" "1.0.0"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
