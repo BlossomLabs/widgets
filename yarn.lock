@@ -3748,9 +3748,9 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v3-periphery@https://github.com/BlossomLabs/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-v1.4.2.tgz":
+"@uniswap/v3-periphery@https://github.com/BlossomLabs/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-1.4.2.tgz":
   version "1.4.2"
-  resolved "https://github.com/BlossomLabs/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-v1.4.2.tgz#7a216b1cecd7b23b0e9c0915176aa02ea873d114"
+  resolved "https://github.com/BlossomLabs/v3-periphery/releases/download/v1.4.2/uniswap-v3-periphery-1.4.2.tgz#3466f1c3480492f2228442ea810bc1d93fdf1b2c"
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@uniswap/lib" "^4.0.1-alpha"
